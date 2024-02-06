@@ -1,11 +1,8 @@
 .star {
   cursor: pointer;
+  color: #000000;
 }
 
 .active {
   color: #FF0000;
-}
-
-.inactive {
-  color: #000000;
 }
