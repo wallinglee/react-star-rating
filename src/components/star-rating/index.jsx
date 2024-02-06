@@ -27,7 +27,7 @@ const StarRating = ({ numberOfStars = 10 }) => {
         return (
           <FaStar
             size={50}
-            className={"star " + (index <= (hover || rating) ? "active" : "inactive")}
+            className={"star " + (index <= (hover || rating) ? "active" : "")}
             title={`Click this to set the rating to ${index}`}
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave()}
